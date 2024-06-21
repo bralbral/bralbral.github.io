@@ -10,5 +10,5 @@ This is a simple and stylish page using GitHub Pages and Jekyll.
 
 ## Links
 
-- [GitHub](https://github.com)
-- [Google](https://google.com)
+- [GitHub](https://github.com/bralbral)
+- [Helm Charts](https://bralbral.github.io/release/index.yaml)
