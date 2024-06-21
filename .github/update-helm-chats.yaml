@@ -21,7 +21,7 @@ jobs:
     - name: Package Helm charts
       run: |
         mkdir -p ./docs
-        helm package ./charts/* --destination ./docs
+        helm package ./helm/* --destination ./docs
 
     - name: Create Helm repository index
       run: |
