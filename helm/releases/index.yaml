@@ -3,13 +3,13 @@ entries:
   telegram-feedback-bot:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-06-22T00:36:41.057496671+03:00"
+    created: "2024-06-22T00:59:25.58534239+03:00"
     description: Simple Telegram Feedback bot.
-    digest: 34b9cc89a73f08fbb963a7059eb31287d799a85339d65096cd2c35a45d019283
+    digest: 95bd55d420fd784265680c37857c67dd463b87693d843564cbcaab6fd76b0302
     home: https://github.com/bralbral/telegram-feedback-bot
     name: telegram-feedback-bot
     type: application
     urls:
-    - https://bralbral.github.io/release/telegram-feedback-bot-0.1.0.tgz
+    - https://bralbral.github.io/helm/releases/telegram-feedback-bot-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-22T00:36:41.057225515+03:00"
+generated: "2024-06-22T00:59:25.584921875+03:00"

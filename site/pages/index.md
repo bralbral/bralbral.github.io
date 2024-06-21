@@ -11,4 +11,4 @@ This is a simple and stylish page using GitHub Pages and Jekyll.
 ## Links
 
 - [GitHub](https://github.com/bralbral)
-- [Helm Charts](https://bralbral.github.io/release/index.yaml)
+- [Helm-releases](..%2F..%2Fhelm%2Freleases/index.yaml)
