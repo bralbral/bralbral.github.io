@@ -1,6 +1,7 @@
 apiVersion: v2
 name: telegram-feedback-bot
-description: Simple Telegram Feedback bot.
+description: >-
+  Simple Telegram Feedback bot. Source: https://github.com/bralbral/telegram-feedback-bot, Helm: https://github.com/bralbral/bralbral.github.io
 home: https://github.com/bralbral/telegram-feedback-bot
 type: application
 version: 0.1.0
