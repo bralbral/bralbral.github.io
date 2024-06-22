@@ -1,9 +1,8 @@
-title: My GitHub Page
-description: >-
-  A simple and stylish page using GitHub Pages and Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # the base hostname & protocol for your site
+title: bralbral.github.io
+description: A simple and stylish page using GitHub Pages and Jekyll.
+baseurl: ""
+url: "https://bralbral.github.io"
 source: site
-collections:
-  pages:
-    output: true
+# https://jekyll-themes.com/pages-themes/minimal
+theme: minimal
+show_downloads: true
