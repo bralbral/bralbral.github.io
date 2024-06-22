@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 ## Links
 
 - [GitHub](https://github.com/bralbral)
