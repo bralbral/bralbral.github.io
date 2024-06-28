@@ -1,5 +1,3 @@
-# Links
-
 ## 1. Helm Charts
 
 ### Telegram Feedback Bot: Simple Bot Feedback Bot for telegram.
