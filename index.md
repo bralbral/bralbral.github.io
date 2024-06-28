@@ -1,7 +1,3 @@
----
-title: My Blog
----
-
 <head>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- Other meta tags and stylesheets -->
