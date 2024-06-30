@@ -1,7 +1,7 @@
 title: My Jekyll Site
 description: A simple Jekyll site
 baseurl: "/site" # важно для размещения в папке
-url: "https://yourusername.github.io" # замените на ваш URL на GitHub Pages
+url: "https://bralbral.github.io" # замените на ваш URL на GitHub Pages
 theme: minima
 
 plugins:
