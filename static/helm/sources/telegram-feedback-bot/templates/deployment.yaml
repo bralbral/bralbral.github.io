@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}
+    spec:
+      containers:
+      - name: {{ .Release.Name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        command: ["sh", "-c", "python -m src"]
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/config.yaml
+          subPath: config.yaml
+          readOnly: true
+        resources:
+          limits:
+            memory: "{{ .Values.resources.limits.memory }}"
+            cpu: "{{ .Values.resources.limits.cpu }}"
+        securityContext:
+          runAsUser: 0
+      volumes:
+      - name: config-volume
+        configMap:
+          name: {{ .Release.Name }}-config
+      tolerations:
+{{- toYaml .Values.tolerations | nindent 8 }}
+      nodeSelector:
+{{- toYaml .Values.nodeSelector | nindent 8 }}
+      affinity:
+{{- toYaml .Values.affinity | nindent 8 }}

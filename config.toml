@@ -1,0 +1,4 @@
+baseURL = 'https://bralbral.github.io/'
+languageCode = 'en-us'
+title = 'brabral'
+theme = 'ananke'
