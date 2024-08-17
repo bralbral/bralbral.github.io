@@ -74,9 +74,9 @@ params:
     Content: Welcome to bralbral.github.io
 
   socialIcons:
-    - name: artifacthub
+    - name: helm
       url: "https://artifacthub.io/packages/search?user=bbralyc"
-    - name: dockerhub
+    - name: docker
       url: "https://hub.docker.com/u/bral1488"
     - name: github
       url: "https://github.com/bralbral"
