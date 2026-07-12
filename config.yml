@@ -1,5 +1,5 @@
 baseURL: https://bralbral.github.io/
-languageCode: en-us
+locale: en-US
 title: bralbral.github.io
 paginate: 5
 theme: PaperMod
